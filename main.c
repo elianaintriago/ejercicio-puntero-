@@ -15,9 +15,9 @@ ptrF=&pi; // puntero almacena la direccion de pi
 
 printf("%f %p", pi, ptrF); //imprime
 
-char l= 'a', c;
+char letra= 'a', c;
 char *ptrC; //definicion del puntero 
-printf("%c %c %p",l,c,ptrC);
+printf("%c %c %p",letra,c,ptrC);
 
     return 0;
 }  
