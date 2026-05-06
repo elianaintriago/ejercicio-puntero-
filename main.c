@@ -12,7 +12,12 @@ printf("%d %p",num,x);//imprime, %p te da la direccion de la variable, %d te da 
 float pi=3.1415, d;
 float *ptrF; //definicion de puntero 
 ptrF=&pi; // puntero almacena la direccion de pi
+
 printf("%f %p", pi, ptrF); //imprime
+
+char l= 'a', c;
+char *ptrC; //definicion del puntero 
+printf("%c %c %p",l,c,ptrC);
 
     return 0;
 }  
